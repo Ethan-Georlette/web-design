@@ -6,88 +6,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <div class="screen "></div>
-    <header class="header-main flex align-center">
+    <header class="header-main">
         <div class="header-container flex space-between align-center main-layout">
             <div class="logo">Blogin<span>.</span></div>
             <ul class="main-links clean-list flex">
-                <li  onclick="toggleSelect(this)"><a href="#">Journal</a></li>
-                <li  onclick="toggleSelect(this)"><a href="#">About</a></li>
-                <li  onclick="toggleSelect(this)"><a href="#">Work</a></li>
-                <li  onclick="toggleSelect(this)"><a href="#">Contact</a></li>
+                <li><a href="#" onclick="toggleSelect(this)">Journal</a></li>
+                <li><a href="#" onclick="toggleSelect(this)">About</a></li>
+                <li><a href="#" onclick="toggleSelect(this)">Work</a></li>
+                <li><a href="#" onclick="toggleSelect(this)">Contact</a></li>
             </ul>
         </div>
     </header>
-    <section class="main-page flex align-center">
-        <div class="page flex main-layout">
-            <div class="card flex">
-                <img src="img/first.jpeg">
-                <div class="article flex space-between">
-                    <h2 class="card-title">Duis aute irure dolor in
-                        henderit in voluptate.</h2>
-                    <p class="card-text">
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
-                        doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        <br><br>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur...
-                    </p>
-                    <button class="btn">Continue Reading <span>→</span></button>
-                </div>
-            </div>
-            <div class="card flex">
-                <img src="img/second.jpeg">
-                <div class="article flex space-between">
-                    <h2 class="card-title">Duis aute irure dolor in
-                        henderit in voluptate.</h2>
-                    <p class="card-text">
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
-                        doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    <br><br>
+    <section class="main-page flex align-center main-layout">
+        <div class="card flex">
+            <img src="img/first.jpeg">
+            <div class="article flex space-between">
+                <h2 class="card-title">Duis aute irure dolor in
+                    henderit in voluptate.</h2>
+                <p class="card-text">
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+                    doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur...
-                    </p>
-                    <button class="btn">Continue Reading  <span>→</span></button>
-                </div>
+                </p>
+                <button class="btn">Continue Reading</button>
             </div>
-            <div class="card flex">
-                <img src="img/third.jpeg">
-                <div class="article flex space-between">
-                    <h2 class="card-title">Duis aute irure dolor in
-                        henderit in voluptate.</h2>
-                    <p class="card-text">
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
-                        doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        <br><br>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur...
-                    </p>
-                    <button class="btn">Continue Reading <span>→</span></button>
-                </div>
+        </div>
+        <div class="card flex">
+            <img src="img/second.jpeg">
+            <div class="article flex space-between">
+                <h2 class="card-title">Duis aute irure dolor in
+                    henderit in voluptate.</h2>
+                <p class="card-text">
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+                    doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur...
+                </p>
+                <button class="btn">Continue Reading</button>
             </div>
-            <div class="page-footer flex space-between">
-                <a href="#">← Previous</a>
-                <a href="#">Next →</a>
+        </div>
+        <div class="card flex">
+            <img src="img/third.jpeg">
+            <div class="article flex space-between">
+                <h2 class="card-title">Duis aute irure dolor in
+                    henderit in voluptate.</h2>
+                <p class="card-text">
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+                    doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur...
+                </p>
+                <button class="btn">Continue Reading</button>
             </div>
+        </div>
+        <div class="page-footer flex">
+            <button class="nav-btn prev">Previous &#8592;</button>
+            <button class="nav-btn next">Next &#8594;</button>
         </div>
     </section>
     <footer class="main-footer flex align-center space-between">
-            <div class="logo">Blogin<span>.</span></div>
-            <small>© 2014 Blogin.com - All Rights Reserved - Find more free Templates at Pixelhint.com</small>
-            <ul class="social-nav clean-list flex">
-                <li><a href="#" class="fa fa-facebook"></a></li>
-                <li><a href="#" class="fa fa-twitter"></a></li>
-                <li><a href="#" class="fa fa-behance"></a></li>
-                <li><a href="#" class="fa fa-dribbble"></a></li>
-            </ul>
+        <div class="logo">Blogin<span>.</span></div>
+        <small>© 2014 Blogin.com - All Rights Reserved - Find more free Templates at Pixelhint.com</small>
+        <ul class="social-nav clean-list flex">
+            <li><a href="#" class="fab fa-facebook"></a></li>
+            <li><a href="#" class="fab fa-twitter"></a></li>
+            <li><a href="#" class="fab fa-behance"></a></li>
+            <li><a href="#" class="fab fa-dribbble"></a></li>
+        </ul>
     </footer>
 
-<script src="js/design-main.js"></script>
+    <script src="js/design-main.js"></script>
 </body>
 
 </html>
