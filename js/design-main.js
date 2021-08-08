@@ -9,3 +9,6 @@ function toggleSelect(elLi){
         elSelects[i].classList.remove('active');
     }
 }
+function toggleMenu() {
+    document.body.classList.toggle('menu-open');
+}
